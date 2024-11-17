@@ -1,6 +1,6 @@
 # Sistema de Recomendación - SVD
 
-Este proyecto consiste en utilizar la data de **MovieLens ml-100k** 📊 para predecir calificaciones de usuarios a películas. 
+Este proyecto consiste en utilizar la data de **MovieLens ml-100k** para predecir calificaciones de usuarios a películas. 
 
 ## Descripción del Modelo
 El modelo inicial **SVD** se utilizó con parámetros predeterminados por el modelo. Las métricas de rendimiento arrojaron los siguientes resultados:
@@ -15,20 +15,20 @@ Además, se observó una distribución de calificaciones estimadas con:
 - **Media**: 3.53
 - **Desviación Estándar**: 0.64
 
-Los errores residuales están distribuidos cerca del cero, con valores extremos entre **3.77** y **-3.63** 🔄. Esto destaca una mejor capacidad de ajuste sin sobreentrenamiento 🚀.
+Los errores residuales están distribuidos cerca del cero, con valores extremos entre **3.77** y **-3.63**. Esto destaca una mejor capacidad de ajuste sin sobreentrenamiento.
 
-## 📈 Análisis de Gráficas
-- La distribución de calificaciones muestra valores concentrados cerca del promedio 📊.
-- Los errores predichos son menores en películas y usuarios con más calificaciones, según el heatmap 🌡️.
+## Análisis de Gráficas
+- La distribución de calificaciones muestra valores concentrados cerca del promedio.
+- Los errores predichos son menores en películas y usuarios con más calificaciones, según el heatmap.
 - Los usuarios activos califican entre **20** y **737** ítems.
-- Las películas más populares tienen hasta **583** calificaciones, lo que genera un sesgo hacia el contenido más frecuente 🎥.
+- Las películas más populares tienen hasta **583** calificaciones, lo que genera un sesgo hacia el contenido más frecuente.
 
-## 💡 Posibles Mejoras
+## Posibles Mejoras
 1. Usar modelos avanzados como **SVD++** para analizar relaciones más complejas.
 2. Ajustar dinámicamente los hiperparámetros según usuarios/ítems.
-3. Incorporar **Deep Learning** 🤖, como:
+3. Incorporar **Deep Learning**, como:
    - Modelos basados en embeddings (**Neural Collaborative Filtering** o **Deep Autoencoders**), para analizar relaciones no lineales complejas entre usuarios e ítems y mejorar el rendimiento del modelo.
 
 ---
 
-Contribuciones y sugerencias son bienvenidas. ¡Gracias por revisar este proyecto! 🚀
+Contribuciones y sugerencias son bienvenidas. ¡Gracias por revisar este proyecto!
