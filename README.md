@@ -29,6 +29,4 @@ Los errores residuales están distribuidos cerca del cero, con valores extremos 
 3. Incorporar **Deep Learning**, como:
    - Modelos basados en embeddings (**Neural Collaborative Filtering** o **Deep Autoencoders**), para analizar relaciones no lineales complejas entre usuarios e ítems y mejorar el rendimiento del modelo.
 
----
 
-Contribuciones y sugerencias son bienvenidas. ¡Gracias por revisar este proyecto!
